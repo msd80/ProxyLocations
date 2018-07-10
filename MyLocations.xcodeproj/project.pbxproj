@@ -20,6 +20,8 @@
 		E8062E1720F535C2007D013F /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8062E1620F535C2007D013F /* HudView.swift */; };
 		E8786BB920F5536600B127E3 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8786BB820F5536600B127E3 /* Functions.swift */; };
 		E8786BBC20F5542700B127E3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8786BBA20F5542700B127E3 /* DataModel.xcdatamodeld */; };
+		E8786BBF20F567BC00B127E3 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8786BBD20F567BC00B127E3 /* Location+CoreDataClass.swift */; };
+		E8786BC020F567BC00B127E3 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8786BBE20F567BC00B127E3 /* Location+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		E8062E1620F535C2007D013F /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		E8786BB820F5536600B127E3 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		E8786BBB20F5542700B127E3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		E8786BBD20F567BC00B127E3 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataClass.swift"; path = "MyLocations/Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E8786BBE20F567BC00B127E3 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataProperties.swift"; path = "MyLocations/Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		E8062DD620F3C965007D013F = {
 			isa = PBXGroup;
 			children = (
+				E8786BBD20F567BC00B127E3 /* Location+CoreDataClass.swift */,
+				E8786BBE20F567BC00B127E3 /* Location+CoreDataProperties.swift */,
 				E8062DE120F3C965007D013F /* MyLocations */,
 				E8062DF820F3C965007D013F /* MyLocationsTests */,
 				E8062E0320F3C965007D013F /* MyLocationsUITests */,
@@ -281,8 +287,10 @@
 				E8786BBC20F5542700B127E3 /* DataModel.xcdatamodeld in Sources */,
 				E8062DE720F3C965007D013F /* SecondViewController.swift in Sources */,
 				E8062E1720F535C2007D013F /* HudView.swift in Sources */,
+				E8786BC020F567BC00B127E3 /* Location+CoreDataProperties.swift in Sources */,
 				E8786BB920F5536600B127E3 /* Functions.swift in Sources */,
 				E8062DE320F3C965007D013F /* AppDelegate.swift in Sources */,
+				E8786BBF20F567BC00B127E3 /* Location+CoreDataClass.swift in Sources */,
 				E8062E1520F52395007D013F /* CategoryPickerViewController.swift in Sources */,
 				E8062DE520F3C965007D013F /* CurrentLocationViewController.swift in Sources */,
 			);

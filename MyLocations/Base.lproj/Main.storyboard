@@ -147,7 +147,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ftP-Az-e9r" kind="show" id="kkh-0h-Wuc"/>
+                                            <segue destination="ftP-Az-e9r" kind="show" identifier="PickCategory" id="kkh-0h-Wuc"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -330,7 +330,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="m67-vl-zJE" kind="unwind" identifier="PickedCategory" unwindAction="didPickCategory:" id="GNP-ov-Gtx"/>
+                                    <segue destination="m67-vl-zJE" kind="unwind" identifier="PickedCategory" unwindAction="categoryPickerDidPickCategory:" id="eGx-Th-NPu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

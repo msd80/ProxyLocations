@@ -17,6 +17,7 @@
 		E8062E0520F3C965007D013F /* MyLocationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8062E0420F3C965007D013F /* MyLocationsUITests.swift */; };
 		E8062E1320F4122B007D013F /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8062E1220F4122B007D013F /* LocationDetailsViewController.swift */; };
 		E8062E1520F52395007D013F /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8062E1420F52395007D013F /* CategoryPickerViewController.swift */; };
+		E8062E1720F535C2007D013F /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8062E1620F535C2007D013F /* HudView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E8062E0620F3C965007D013F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8062E1220F4122B007D013F /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 		E8062E1420F52395007D013F /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
+		E8062E1620F535C2007D013F /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				E8062DE420F3C965007D013F /* CurrentLocationViewController.swift */,
 				E8062DE620F3C965007D013F /* SecondViewController.swift */,
 				E8062E1220F4122B007D013F /* LocationDetailsViewController.swift */,
+				E8062E1620F535C2007D013F /* HudView.swift */,
 				E8062E1420F52395007D013F /* CategoryPickerViewController.swift */,
 				E8062DE820F3C965007D013F /* Main.storyboard */,
 				E8062DEB20F3C965007D013F /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			files = (
 				E8062E1320F4122B007D013F /* LocationDetailsViewController.swift in Sources */,
 				E8062DE720F3C965007D013F /* SecondViewController.swift in Sources */,
+				E8062E1720F535C2007D013F /* HudView.swift in Sources */,
 				E8062DE320F3C965007D013F /* AppDelegate.swift in Sources */,
 				E8062E1520F52395007D013F /* CategoryPickerViewController.swift in Sources */,
 				E8062DE520F3C965007D013F /* CurrentLocationViewController.swift in Sources */,
